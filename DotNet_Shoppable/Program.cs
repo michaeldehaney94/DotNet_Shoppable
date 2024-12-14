@@ -1,7 +1,17 @@
+using DotNet_Shoppable.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//connects the database to the web app backend 
+//install Npgsql.EntityFrameworkCore.PostgreSQL
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(
+        //add connectionstring from appsettings.json
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    ));
 
 var app = builder.Build();
 

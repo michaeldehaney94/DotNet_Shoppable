@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DotNet_Shoppable.props" />
+</Project>
