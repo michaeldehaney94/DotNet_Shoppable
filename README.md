@@ -1,4 +1,4 @@
-Download the following NuGet packages: <br/>
+Install the following NuGet packages: <br/>
 ------------------------------------------------ <br/>
 Microsoft.EntityFrameworkCore <br/>
 Microsoft.EntityFrameworkCore.Tools <br/>
