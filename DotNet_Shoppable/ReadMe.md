@@ -1,4 +1,4 @@
-﻿Download the following NuGet packages: <br/>
+﻿Install the following NuGet packages: <br/>
 ------------------------------------------------ <br/>
 Microsoft.EntityFrameworkCore <br/>
 Microsoft.EntityFrameworkCore.Tools <br/>
@@ -10,4 +10,11 @@ Run Migration<br/>
 In Package Manager CLI: 
 1. run 'Add-Migration FirstMigration' <br/>
 2. run Update-Database <br/>
+
+<br/><br/>
+<div class="text-center">
+	<img src="/Dev Projects/DotNet_Shoppable/DotNet_Shoppable/wwwroot/shoppable-logo.jpg" />
+</div><br/>
+
+What is Shoppable?<br/>
 

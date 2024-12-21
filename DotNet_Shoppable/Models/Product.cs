@@ -20,13 +20,15 @@ namespace DotNet_Shoppable.Models
         [Precision(16, 2)]
         public decimal Price { get; set; }
 
-        [MaxLength(250)]
+        [MaxLength(600)]
         public string Description { get; set; } = "";
 
         [MaxLength (100)]
         public string ImageFileName { get; set; } = "";
 
-        public DateTime CreatedAt { get; set; }
+        public DateTimeOffset CreatedAt { get; set; }
+
+        //public DateTime CreatedAt { get; set; } 
 
 
 

@@ -71,6 +71,10 @@
             "Z.EntityFramework.Extensions.Classic": {
               "target": "Package",
               "version": "[8.103.6.2, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.3, )"
             }
           },
           "imports": [
