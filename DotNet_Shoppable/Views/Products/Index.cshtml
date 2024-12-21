@@ -1,0 +1,64 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2 class="text-center mb-5">Products List</h2>
+
+<div class="row mb-5">
+    <div class="col">
+        <a class="btn btn-primary btn-sm" asp-controller="Products" asp-action="Create">
+            Create new product
+        </a>
+    </div>
+    <div class="col">
+
+    </div>
+</div>
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th class="mr-2">ID</th>
+            <th class="mr-2">Name</th>
+            <th class="mr-2">Brand</th>
+            <th class="mr-2">Category</th>
+            <th class="mr-2">Price</th>
+            <th class="mr-2">Image</th>
+            <th class="mr-2">Created At</th>
+            <th class="mr-2">Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td class="p-2">@product.Id</td>
+                <td class="p-2">@product.Name</td>
+                <td class="p-2">@product.Brand</td>
+                <td class="p-2">@product.Category</td>
+                <td class="p-2">$@(product.Price)</td>
+                <td class="p-2">
+                    <img src="/products/@product.ImageFileName" width="100" />
+                </td>
+                <td class="p-2">@product.CreatedAt.ToString("MM/dd/yyyy")</td> 
+                <td style="white-space:nowrap" class="p-2">
+                    <a class="btn btn-light btn-sm" asp-controller="Products" asp-action="Edit" asp-route-id="@product.Id">
+                        @* Edit button *@
+                        <spa title="Edit item">
+                            <img width="20" height="20" src="https://img.icons8.com/ios/50/create-new.png" alt="create-new" />
+                        </spa>
+                    </a>
+                    <a class="btn btn-light btn-sm" asp-controller="Products" asp-action="Delete" asp-route-id="@product.Id">
+                        @* Delete button *@
+                        <span title="Delete item">
+                            <img width="20" height="20" src="https://img.icons8.com/ios/50/delete-trash.png" alt="delete-trash" />
+                        </span>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

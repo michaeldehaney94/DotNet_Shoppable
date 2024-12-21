@@ -1,0 +1,94 @@
+﻿@model ProductDto
+@{
+    ViewData["Title"] = "Create new product";
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3 shadow">
+        <h2 class="text-center mb-5">New Product</h2>
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Name</label>
+                <div class="col-sm-8">
+                    <input  class="form-control" asp-for="Name"/>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Brand</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Brand" />
+                    <span asp-validation-for="Brand" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Category</label>
+                <div class="col-sm-8">
+                   <select class="form-control" asp-for="Category">
+                       <option>Select category...</option>
+                       <option value="Other">Other</option>
+                        <option value="Computers">Computers</option>
+                        <option value="Gaming Console">Gaming Console</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Books">Books</option>
+                        <option value="Movies & TV">Movies & TV</option>
+                        <option value="Software">Software</option>
+                        <option value="Clothing">Clothing</option>
+                        <option value="Video Games">Video Games</option>
+                        <option value="Digital Music">Digital Music</option>
+                        <option value="PC Gaming">PC Gaming</option>
+                        <option value="Cameras">Cameras</option>
+                        <option value="Cell Phones">Cell Phones</option>
+                        <option value="Food & Grocery">Food & Grocery</option>
+                   </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Price</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Price" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Description</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Description" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Image</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="ImageFile" />
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-warning" asp-controller="Products" asp-action="Index" role="button">
+                        Cancel
+                    </a>
+                </div>
+            </div>
+
+        </form>
+
+
+
+
+
+
+    </div>
+</div>
