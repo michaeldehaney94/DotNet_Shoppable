@@ -52,8 +52,7 @@ namespace DotNet_Shoppable.Controllers
                 productDto.ImageFile.CopyTo(stream);
             }
 
-            DateTimeOffset localTime = DateTimeOffset.Now;
-
+           
             //save the new product in the database
             Product product = new Product()
             {
@@ -63,8 +62,8 @@ namespace DotNet_Shoppable.Controllers
                 Price = productDto.Price,
                 Description = productDto.Description,
                 ImageFileName = newFileName,
-                CreatedAt = DateTimeOffset.UtcNow,
-                //CreatedAt = DateTime.Now,
+                CreatedAt = DateTime.UtcNow,
+                //CreatedAt = DateTime.Now, // works with sql server timestamp format
             };
 
             db.Products.Add(product);

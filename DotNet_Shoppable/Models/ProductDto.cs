@@ -24,7 +24,7 @@ namespace DotNet_Shoppable.Models
 
         public DateTimeOffset CreatedAt { get; set; }
 
-        //public DateTime CreatedAt { get; set; } 
+        //public DateTime CreatedAt { get; set; }
 
     }
 }
