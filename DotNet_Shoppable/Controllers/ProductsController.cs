@@ -8,7 +8,7 @@ namespace DotNet_Shoppable.Controllers
     {
         private readonly ApplicationDbContext db;
         private readonly IWebHostEnvironment environment; // this will enable you to save an uploaded image in the web app environment or database
-        private readonly int pageSize = 10; //pagination page size
+        private readonly int pageSize = 5; //pagination page size
 
         //retrieve database model context
         public ProductsController(ApplicationDbContext db, IWebHostEnvironment environment) 
@@ -22,10 +22,16 @@ namespace DotNet_Shoppable.Controllers
         {
             IQueryable<Product> query = db.Products;
 
+            //search functionality
+            if (search != null)
+            {
+                query = query.Where(p => p.Name.Contains(search) || p.Brand.Contains(search) || p.Category.Contains(search));
+            }
+
             query = query.OrderByDescending(p => p.Id);  // reverse the list order from new to old
 
-            //pagination functionality
-            if (pageSize < 1)
+            //page indexing
+            if (pageIndex < 1)
             {
                 pageIndex = 1;
             }
@@ -42,7 +48,7 @@ namespace DotNet_Shoppable.Controllers
             ViewData["PageIndex"] = pageIndex;
             ViewData["TotalPages"] = totalPages;
 
-            //search functionality
+           // add search query value to URL in view
             ViewData["Search"] = search ?? "";
 
             return View(products);
