@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jXHKUsjTv+87A66L8KX2u+hUDk4kAzP18PFcOmZTW6o=",
+  "Hash": "BJsaWrXmNhOB0d/uL/6+LES/YEN9hmqHW3TucxTRZ68=",
   "Source": "DotNet_Shoppable",
   "BasePath": "_content/DotNet_Shoppable",
   "Mode": "Default",
@@ -981,6 +981,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNet_Shoppable.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\bag.png",
+      "SourceId": "DotNet_Shoppable",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
+      "BasePath": "_content/DotNet_Shoppable",
+      "RelativePath": "bag#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "86ahig1lcv",
+      "Integrity": "QNCpksdncbPJ6++WERGzIFOK4tNPLt8L8p/pUHXEO6s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bag.png"
     },
     {
       "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\css\\site.css",
@@ -2243,27 +2264,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175002717.jpg",
-      "SourceId": "DotNet_Shoppable",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
-      "BasePath": "_content/DotNet_Shoppable",
-      "RelativePath": "products/20241221175002717#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "c5ydubfqzb",
-      "Integrity": "IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\products\\20241221175002717.jpg"
-    },
-    {
       "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175202550.jpg",
       "SourceId": "DotNet_Shoppable",
       "SourceType": "Discovered",
@@ -2495,6 +2495,111 @@
       "OriginalItemSpec": "wwwroot\\products\\20241221185232608.jpg"
     },
     {
+      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221215849198.jpg",
+      "SourceId": "DotNet_Shoppable",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
+      "BasePath": "_content/DotNet_Shoppable",
+      "RelativePath": "products/20241221215849198#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8wp4j5kkc",
+      "Integrity": "jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20241221215849198.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224154415080.jpg",
+      "SourceId": "DotNet_Shoppable",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
+      "BasePath": "_content/DotNet_Shoppable",
+      "RelativePath": "products/20241224154415080#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c5ydubfqzb",
+      "Integrity": "IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20241224154415080.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160402562.jpg",
+      "SourceId": "DotNet_Shoppable",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
+      "BasePath": "_content/DotNet_Shoppable",
+      "RelativePath": "products/20241224160402562#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c5ydubfqzb",
+      "Integrity": "IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20241224160402562.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160526441.jpg",
+      "SourceId": "DotNet_Shoppable",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
+      "BasePath": "_content/DotNet_Shoppable",
+      "RelativePath": "products/20241224160526441#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8wp4j5kkc",
+      "Integrity": "jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20241224160526441.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160627114.jpg",
+      "SourceId": "DotNet_Shoppable",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
+      "BasePath": "_content/DotNet_Shoppable",
+      "RelativePath": "products/20241224160627114#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "apdmgmwbz2",
+      "Integrity": "IikS8YGGmnizmY6QfeJCp1Sm6dvfh+SuwzKsm7dp8o0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20241224160627114.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\shoppable-logo.jpg",
       "SourceId": "DotNet_Shoppable",
       "SourceType": "Discovered",
@@ -2517,6 +2622,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "bag.86ahig1lcv.png",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\bag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QNCpksdncbPJ6++WERGzIFOK4tNPLt8L8p/pUHXEO6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 22:22:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86ahig1lcv"
+        },
+        {
+          "Name": "label",
+          "Value": "bag.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QNCpksdncbPJ6++WERGzIFOK4tNPLt8L8p/pUHXEO6s="
+        }
+      ]
+    },
+    {
+      "Route": "bag.png",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\bag.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QNCpksdncbPJ6++WERGzIFOK4tNPLt8L8p/pUHXEO6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 22:22:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QNCpksdncbPJ6++WERGzIFOK4tNPLt8L8p/pUHXEO6s="
+        }
+      ]
+    },
     {
       "Route": "css/bootstrap.css",
       "AssetFile": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
@@ -11210,88 +11397,6 @@
       ]
     },
     {
-      "Route": "products/20241221175002717.c5ydubfqzb.jpg",
-      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175002717.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14427"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 21 Dec 2024 22:50:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c5ydubfqzb"
-        },
-        {
-          "Name": "label",
-          "Value": "products/20241221175002717.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4="
-        }
-      ]
-    },
-    {
-      "Route": "products/20241221175002717.jpg",
-      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175002717.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14427"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 21 Dec 2024 22:50:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4="
-        }
-      ]
-    },
-    {
       "Route": "products/20241221175202550.apdmgmwbz2.jpg",
       "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175202550.jpg",
       "Selectors": [],
@@ -12180,6 +12285,416 @@
         {
           "Name": "Last-Modified",
           "Value": "Sat, 21 Dec 2024 23:52:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IikS8YGGmnizmY6QfeJCp1Sm6dvfh+SuwzKsm7dp8o0="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241221215849198.j8wp4j5kkc.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221215849198.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 02:58:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8wp4j5kkc"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241221215849198.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241221215849198.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221215849198.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Dec 2024 02:58:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224154415080.c5ydubfqzb.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224154415080.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 20:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5ydubfqzb"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241224154415080.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224154415080.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224154415080.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 20:44:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224160402562.c5ydubfqzb.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160402562.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 21:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c5ydubfqzb"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241224160402562.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224160402562.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160402562.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 21:04:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IEijyOKvFIds/C874BHeEJgADLHQztmJgsaSsHMF+x4="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224160526441.j8wp4j5kkc.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160526441.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 21:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8wp4j5kkc"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241224160526441.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224160526441.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160526441.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 21:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jZAgYTMO33CAbsCdzeJas1GEOoMMZkoBGfh1K5KYisI="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224160627114.apdmgmwbz2.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160627114.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IikS8YGGmnizmY6QfeJCp1Sm6dvfh+SuwzKsm7dp8o0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 21:06:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "apdmgmwbz2"
+        },
+        {
+          "Name": "label",
+          "Value": "products/20241224160627114.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IikS8YGGmnizmY6QfeJCp1Sm6dvfh+SuwzKsm7dp8o0="
+        }
+      ]
+    },
+    {
+      "Route": "products/20241224160627114.jpg",
+      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160627114.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43830"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IikS8YGGmnizmY6QfeJCp1Sm6dvfh+SuwzKsm7dp8o0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 21:06:27 GMT"
         },
         {
           "Name": "Cache-Control",

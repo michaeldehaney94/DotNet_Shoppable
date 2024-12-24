@@ -1,18 +1,29 @@
 ﻿@model List<Product>
 @{
     ViewData["Title"] = "Products";
+    //add pagination from index action controller
+    //convert to integer to get page number
+    int pageIndex = (int)ViewData["PageIndex"]!;
+    int totalPages = (int)ViewData["TotalPages"]!;
+    //add search function from index action controller
+    string search = (string)ViewData["Search"]!;
 }
 
 <h2 class="text-center mb-5">Products List</h2>
 
 <div class="row mb-5">
     <div class="col">
-        <a class="btn btn-primary btn-sm" asp-controller="Products" asp-action="Create">
-            Create new product
+        <a class="btn btn-warning btn-sm" asp-controller="Products" asp-action="Create">
+            Add new product
         </a>
     </div>
     <div class="col">
-
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" name="search" value="@search" placeholder="Search for Product Name or Brand..." aria-label="Search">
+            <button class="btn btn-dark" type="submit">
+                <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="search--v1" />
+             </button>
+        </form>
     </div>
 </div>
 
@@ -51,7 +62,7 @@
                             <img width="20" height="20" src="https://img.icons8.com/ios/50/create-new.png" alt="create-new" />
                         </spa>
                     </a>
-                    <a class="btn btn-light btn-sm" asp-controller="Products" asp-action="Delete" asp-route-id="@product.Id">
+                    <a class="btn btn-light btn-sm" asp-controller="Products" asp-action="Delete" asp-route-id="@product.Id" onclick="return confirm('Are you sure you want to delete the @product.Name item?');">
                         @* Delete button *@
                         <span title="Delete item">
                             <img width="20" height="20" src="https://img.icons8.com/ios/50/delete-trash.png" alt="delete-trash" />
@@ -62,3 +73,15 @@
         }
     </tbody>
 </table>
+
+@* Pagination *@
+<nav >
+    <ul class="pagination">
+        @for(int i = 1; i <= totalPages; i++)
+        {
+            string active = "";
+            if (i == pageIndex) active = "active";
+            <li class="page-item @active"><a class="page-link" asp-route-pageIndex="@i">@i</a></li>
+        }
+    </ul>
+</nav>

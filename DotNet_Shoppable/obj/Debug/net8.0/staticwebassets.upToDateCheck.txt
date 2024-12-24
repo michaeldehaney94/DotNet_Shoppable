@@ -42,6 +42,7 @@ C:\Users\Michael Dehaney\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\ww
 C:\Users\Michael Dehaney\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.js.map
 C:\Users\Michael Dehaney\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js
 C:\Users\Michael Dehaney\.nuget\packages\bootstrap\5.3.3\contentFiles\any\any\wwwroot\js\bootstrap.min.js.map
+wwwroot\bag.png
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
@@ -102,7 +103,6 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\products\20241221175002717.jpg
 wwwroot\products\20241221175202550.jpg
 wwwroot\products\20241221175247570.jpg
 wwwroot\products\20241221175747131.jpg
@@ -114,4 +114,9 @@ wwwroot\products\20241221183852818.jpg
 wwwroot\products\20241221184738933.jpg
 wwwroot\products\20241221185103987.jpg
 wwwroot\products\20241221185232608.jpg
+wwwroot\products\20241221215849198.jpg
+wwwroot\products\20241224154415080.jpg
+wwwroot\products\20241224160402562.jpg
+wwwroot\products\20241224160526441.jpg
+wwwroot\products\20241224160627114.jpg
 wwwroot\shoppable-logo.jpg

@@ -17,4 +17,5 @@ In Package Manager CLI:
 </div><br/>
 
 What is Shoppable?<br/>
-
+Shoppable is a ecommerce .NET8.0 Core web application built to sell good and services, for clients who wish to start their online business or grow their existing business to reach a wider target market. 
+<br/>

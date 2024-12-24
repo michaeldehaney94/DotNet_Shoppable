@@ -1,17 +1,27 @@
 ﻿@model ProductDto
+
 @{
-    ViewData["Title"] = "Create new product";
+    ViewData["Title"] = "Edit";
 }
 
 <div class="row">
     <div class="col-md-8 mx-auto rounded border p-3 shadow">
-        <h2 class="text-center mb-5">New Product</h2>
+        <h2 class="text-center mb-5">Edit Product</h2>
 
         <form method="post" enctype="multipart/form-data">
+
+            @* Edit Id *@
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Id</label>
+                <div class="col-sm-8">
+                    <input class="form-control-plaintext" readonly value="@ViewData["ProductId"]" />
+                </div>
+            </div>
+
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Name</label>
                 <div class="col-sm-8">
-                    <input  class="form-control" asp-for="Name"/>
+                    <input class="form-control" asp-for="Name" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
             </div>
@@ -27,8 +37,8 @@
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Category</label>
                 <div class="col-sm-8">
-                   <select class="form-control" asp-for="Category">
-                       <option value="Other">Other</option>
+                    <select class="form-control" asp-for="Category">
+                        <option value="Other">Other</option>
                         <option value="Computers">Computers</option>
                         <option value="Gaming Console">Gaming Console</option>
                         <option value="Accessories">Accessories</option>
@@ -43,7 +53,7 @@
                         <option value="Cameras">Cameras</option>
                         <option value="Cell Phones">Cell Phones</option>
                         <option value="Food & Grocery">Food & Grocery</option>
-                   </select>
+                    </select>
                 </div>
             </div>
 
@@ -63,6 +73,13 @@
                 </div>
             </div>
 
+            @* Edit image *@
+            <div class="row mb-3">
+                <div class="col-sm-8">
+                    <img src="/products/@ViewData["ImageFileName"]" width="150"/>
+                </div>
+            </div>
+
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Image</label>
                 <div class="col-sm-8">
@@ -71,9 +88,17 @@
                 </div>
             </div>
 
+            @* Read the time the product was created *@
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">CreatedAt</label>
+                <div class="col-sm-8">
+                    <input class="form-control-plaintext" readonly value="@ViewData["CreatedAt"]" />
+                </div>
+            </div>
+
             <div class="row">
                 <div class="offset-sm-4 col-sm-4 d-grid">
-                    <button type="submit" class="btn btn-warning">Submit</button>
+                    <button type="submit" class="btn btn-warning">Update</button>
                 </div>
                 <div class="col-sm-4 d-grid">
                     <a class="btn btn-warning" asp-controller="Products" asp-action="Index" role="button">

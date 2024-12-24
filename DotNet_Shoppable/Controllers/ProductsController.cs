@@ -8,6 +8,7 @@ namespace DotNet_Shoppable.Controllers
     {
         private readonly ApplicationDbContext db;
         private readonly IWebHostEnvironment environment; // this will enable you to save an uploaded image in the web app environment or database
+        private readonly int pageSize = 10; //pagination page size
 
         //retrieve database model context
         public ProductsController(ApplicationDbContext db, IWebHostEnvironment environment) 
@@ -16,11 +17,37 @@ namespace DotNet_Shoppable.Controllers
             this.environment = environment;
         }
 
-        public IActionResult Index()
+        // LIST products
+        public IActionResult Index(int pageIndex, string? search)
         {
-            var products = db.Products.OrderByDescending(p => p.Id).ToList(); // reverse the list order from new to old
+            IQueryable<Product> query = db.Products;
+
+            query = query.OrderByDescending(p => p.Id);  // reverse the list order from new to old
+
+            //pagination functionality
+            if (pageSize < 1)
+            {
+                pageIndex = 1;
+            }
+
+            decimal count = query.Count();
+            int totalPages = (int)Math.Ceiling(count / pageSize);
+            query = query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
+
+            Console.WriteLine(query.ToString());
+
+            var products = query.ToList();
+
+            // pass page index and page size to the index view
+            ViewData["PageIndex"] = pageIndex;
+            ViewData["TotalPages"] = totalPages;
+
+            //search functionality
+            ViewData["Search"] = search ?? "";
+
             return View(products);
         }
+
 
         //GET Create View products
         public IActionResult Create()
@@ -73,14 +100,107 @@ namespace DotNet_Shoppable.Controllers
             return RedirectToAction("Index", "Products");
         }
        
+        //Edit product
+        public IActionResult Edit(int id)
+        {
+            var product = db.Products.Find(id);
+
+            // check if id is null
+            if (product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            // create productDto from product
+            var productDto = new ProductDto()
+            {
+                Name = product.Name,
+                Brand = product.Brand,
+                Category = product.Category,
+                Price = product.Price,
+                Description = product.Description,
+            };
+
+            //Display product data in edit view
+            ViewData["ProductId"] = product.Id;
+            ViewData["ImageFileName"] = product.ImageFileName;
+            ViewData["CreatedAt"] = product.CreatedAt.ToString("MM/dd/yyyy");
+
+            return View(productDto);
+        }
+
+        //POST Edit product
+        [HttpPost]
+        public IActionResult Edit(int id, ProductDto productDto)
+        {
+            var product = db.Products.Find(id);
+
+            if (product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                //Display product data in edit view
+                ViewData["ProductId"] = product.Id;
+                ViewData["ImageFileName"] = product.ImageFileName;
+                ViewData["CreatedAt"] = product.CreatedAt.ToString("MM/dd/yyyy");
+
+                return View(productDto);
+            }
+
+            // update the image file if a new image is uploaded
+            string newFileName = product.ImageFileName;
+            if (productDto.ImageFile != null)
+            {
+                newFileName = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                newFileName += Path.GetExtension(productDto.ImageFile.FileName);
+
+                string imageFullPath = environment.WebRootPath + "/products/" + newFileName;
+                using (var stream = System.IO.File.Create(imageFullPath)) 
+                {
+                    productDto.ImageFile.CopyTo(stream);
+                }
+                // delete the old image
+                string oldImageFullPath = environment.WebRootPath + "/products/" + product.ImageFileName;
+                System.IO.File.Delete(oldImageFullPath);
+
+            }
+
+            // update the product in the database
+            product.Name = productDto.Name;
+            product.Brand = productDto.Brand;
+            product.Category = productDto.Category;
+            product.Price = productDto.Price;
+            product.Description = productDto.Description;
+            product.ImageFileName = newFileName;
+
+            db.SaveChanges();
+
+            return RedirectToAction("Index", "Products");
+        }
 
 
+        //DELETE product
+        public IActionResult Delete(int id)
+        {
+            var product = db.Products.Find(id);
 
+            if (product == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
 
+            //delete image from path
+            string imageFullPath = environment.WebRootPath + "/products/" + product.ImageFileName;
+            System.IO.File.Delete(imageFullPath);
 
+            db.Products.Remove(product);
+            db.SaveChanges();
 
-
-
+            return RedirectToAction("Index", "Products");
+        }
 
     }
 }
