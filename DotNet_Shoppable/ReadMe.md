@@ -13,7 +13,7 @@ In Package Manager CLI:
 
 <br/><br/>
 <div class="text-center">
-	<img src="/Dev Projects/DotNet_Shoppable/DotNet_Shoppable/wwwroot/shoppable-logo.jpg" />
+	<img src="/DotNet_Shoppable/wwwroot/shoppable-logo.jpg" />
 </div><br/>
 
 What is Shoppable?<br/>
