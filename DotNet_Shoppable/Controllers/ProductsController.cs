@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet_Shoppable.Controllers
 {
+    // The 'Route' parameter tells the controller that 'ProductsController' actions and views should only be available to the administrator
+    //[Route("/Admin/[controller]/[action]")]
+    [Route("/Admin/[controller]/{action=Index}/{id?}")] // removes the action method name from URL when navigating
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext db;
@@ -18,17 +21,101 @@ namespace DotNet_Shoppable.Controllers
         }
 
         // LIST products
-        public IActionResult Index(int pageIndex, string? search)
+        public IActionResult Index(int pageIndex, string? search, string? column, string? orderBy)
         {
             IQueryable<Product> query = db.Products;
 
             //search functionality
             if (search != null)
             {
-                query = query.Where(p => p.Name.Contains(search) || p.Brand.Contains(search) || p.Category.Contains(search));
+                query = query.Where(p => p.Name.Contains(search) || p.Brand.Contains(search) || p.Category.Contains(search)
+                || p.Name.ToLower().Contains(search) || p.Brand.ToLower().Contains(search) || p.Category.ToLower().Contains(search)); //check if the search is lowrcase characters
+            }
+           
+
+            //sort functionality
+            string[] validColumns = { "Id", "Name", "Brand", "Category", "Price", "CreatedAt" };
+            string[] validOrderBy = { "desc", "asc" };
+
+            if (!validColumns.Contains(column))
+            {
+                column = "Id";
             }
 
-            query = query.OrderByDescending(p => p.Id);  // reverse the list order from new to old
+            if (!validOrderBy.Contains(orderBy))
+            {
+                orderBy = "desc";
+            }
+
+            if (column == "Name")
+            {
+                if (orderBy == "asc")
+                {
+                    query = query.OrderBy(p => p.Name);
+                }
+                else
+                {
+                    query = query.OrderByDescending(p => p.Name);
+                }
+            }
+            else if (column == "Brand")
+            {
+                if (orderBy == "asc")
+                {
+                    query = query.OrderBy(p => p.Brand);
+                }
+                else
+                {
+                    query = query.OrderByDescending(p => p.Brand);
+                }
+            }
+            else if (column == "Category")
+            {
+                if (orderBy == "asc")
+                {
+                    query = query.OrderBy(p => p.Category);
+                }
+                else
+                {
+                    query = query.OrderByDescending(p => p.Category);
+                }
+            }
+            else if (column == "Price")
+            {
+                if (orderBy == "asc")
+                {
+                    query = query.OrderBy(p => p.Price);
+                }
+                else
+                {
+                    query = query.OrderByDescending(p => p.Price);
+                }
+            }
+            else if (column == "CreatedAt")
+            {
+                if (orderBy == "asc")
+                {
+                    query = query.OrderBy(p => p.CreatedAt);
+                }
+                else
+                {
+                    query = query.OrderByDescending(p => p.CreatedAt);
+                }
+            }
+            else
+            {
+                if (orderBy == "asc")
+                {
+                    query = query.OrderBy(p => p.Id);
+                }
+                else
+                {
+                    // reverse the list order from new to old
+                    query = query.OrderByDescending(p => p.Id);
+                }
+            }
+
+            
 
             //page indexing
             if (pageIndex < 1)
@@ -50,6 +137,10 @@ namespace DotNet_Shoppable.Controllers
 
            // add search query value to URL in view
             ViewData["Search"] = search ?? "";
+
+            //add sort column query to URL in view
+            ViewData["Column"] = column;
+            ViewData["OrderBy"] = orderBy;
 
             return View(products);
         }

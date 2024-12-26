@@ -1,4 +1,5 @@
-﻿@model List<Product>
+﻿@using Microsoft.AspNetCore.Html
+@model List<Product>
 @{
     ViewData["Title"] = "Products";
     //add pagination from index action controller
@@ -7,6 +8,21 @@
     int totalPages = (int)ViewData["TotalPages"]!;
     //add search function from index action controller
     string search = (string)ViewData["Search"]!;
+    //add sort function to table columns
+    string column = (string)ViewData["Column"]!;
+    string orderBy = (string)ViewData["OrderBy"]!;
+
+    HtmlString getArrow(string tableColumn)
+    {
+        if (tableColumn != column) { return new HtmlString(""); }
+
+        if (orderBy == "desc")
+        {
+            return new HtmlString("<img width='15' height='15' src='https://img.icons8.com/ios/50/long-arrow-down.png' alt='long-arrow-down'/>");
+        }
+
+        return new HtmlString("<img width='15' height='15' src='https://img.icons8.com/ios/50/long-arrow-up--v1.png' alt='long-arrow-up--v1'/>");
+    }
 }
 
 <h2 class="text-center mb-5">Products List</h2>
@@ -14,7 +30,7 @@
 <div class="row mb-5">
     <div class="col">
         <a class="btn btn-warning btn-sm" asp-controller="Products" asp-action="Create">
-            Add new product
+            Add new product item
         </a>
     </div>
     <div class="col">
@@ -22,23 +38,37 @@
             <input class="form-control me-2" type="search" name="search" value="@search" placeholder="Search for Product Name or Brand..." aria-label="Search">
             <button class="btn btn-dark" type="submit">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFFFFF/search--v1.png" alt="search--v1" />
+                @* <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1" /> *@
              </button>
         </form>
     </div>
 </div>
 
+@* Sort filter column script *@
+<script>
+    function sortTable(column) {
+        let orderBy = "desc"
+        let currentColumn = "@column";
+        let currentOrder = "@orderBy";
+        if (column === currentColumn) {
+            if (currentOrder == "asc") { orderBy = "desc"; } else { orderBy = "asc"; } 
+        }
+        window.location.href="?search=@(search)&column="+column+"&orderBy="+orderBy
+    }
+</script>
+
 
 <table class="table table-bordered">
     <thead>
         <tr>
-            <th class="mr-2">ID</th>
-            <th class="mr-2">Name</th>
-            <th class="mr-2">Brand</th>
-            <th class="mr-2">Category</th>
-            <th class="mr-2">Price</th>
-            <th class="mr-2">Image</th>
-            <th class="mr-2">Created At</th>
-            <th class="mr-2">Action</th>
+            <th style="cursor: pointer;" onclick="sortTable('Id')">ID @getArrow("Id")</th>
+            <th style="cursor: pointer;" onclick="sortTable('Name')">Name @getArrow("Name")</th>
+            <th style="cursor: pointer;" onclick="sortTable('Brand')">Brand @getArrow("Brand")</th>
+            <th style="cursor: pointer;" onclick="sortTable('Category')">Category @getArrow("Category")</th>
+            <th style="cursor: pointer;" onclick="sortTable('Price')">Price @getArrow("Price")</th>
+            <th>Image</th>
+            <th style="cursor: pointer;" onclick="sortTable('CreatedAt')">Created At @getArrow("CreatedAt")</th>
+            <th>Action</th>
         </tr>
     </thead>
 
@@ -81,7 +111,9 @@
         {
             string active = "";
             if (i == pageIndex) active = "active";
-            <li class="page-item @active"><a class="page-link" asp-route-pageIndex="@i" asp-route-search="@search">@i</a></li>
+            <li class="page-item @active"><a class="page-link" asp-route-pageIndex="@i" asp-route-search="@search" asp-route-column="@column" asp-route-orderBy="@orderBy">
+                @i
+            </a></li>
         }
     </ul>
 </nav>
