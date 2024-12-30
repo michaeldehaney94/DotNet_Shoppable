@@ -189,8 +189,32 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-794064.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-godisable-jacob-226636-794064.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-949670.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-godisable-jacob-226636-949670.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-965324.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-godisable-jacob-226636-965324.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-idsreza-12513230.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-idsreza-12513230.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\playstation.jpg",
+      "PackagePath": "staticwebassets\\img\\playstation.jpg"
     },
     {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\js\\site.js",
@@ -425,80 +449,44 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175202550.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221175202550.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175247570.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221175247570.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221175747131.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221175747131.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221181948319.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221181948319.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221182125927.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221182125927.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221182709617.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221182709617.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221183753883.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221183753883.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221183852818.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221183852818.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221184738933.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221184738933.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221185103987.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221185103987.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221185232608.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221185232608.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241221215849198.jpg",
-      "PackagePath": "staticwebassets\\products\\20241221215849198.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224154415080.jpg",
-      "PackagePath": "staticwebassets\\products\\20241224154415080.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160402562.jpg",
-      "PackagePath": "staticwebassets\\products\\20241224160402562.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160526441.jpg",
-      "PackagePath": "staticwebassets\\products\\20241224160526441.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224160627114.jpg",
-      "PackagePath": "staticwebassets\\products\\20241224160627114.jpg"
-    },
-    {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224180608874.jpg",
       "PackagePath": "staticwebassets\\products\\20241224180608874.jpg"
     },
     {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224181132861.jpg",
-      "PackagePath": "staticwebassets\\products\\20241224181132861.jpg"
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228120425545.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228120425545.jpg"
     },
     {
-      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224181554722.jpg",
-      "PackagePath": "staticwebassets\\products\\20241224181554722.jpg"
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228120629198.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228120629198.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228121825265.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228121825265.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228122006409.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228122006409.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228122250863.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228122250863.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228124626294.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228124626294.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228124756666.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228124756666.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228124907570.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228124907570.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228125423187.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228125423187.jpg"
     },
     {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\shoppable-logo.jpg",

@@ -1,20 +1,51 @@
-﻿@{
+﻿@model List<Product>
+
+@{
     ViewData["Title"] = "Home";
     ViewData["HomePage"] = true; // check if index view is the homepage
 }
 
-<div style="background-color: #08618d;">
+<div style="background-color: #08618d;" class="jumbotron">
     <div class="container text-white py-5">
         <div class="row align-items-center g-5">
             <div class="col-md-6">
-                <h1 class="mb-5 display-2"><strong>Best Store for Electronics</strong></h1>
-                <p>
-                    Find a large selection of newest electronic devices from most popular brands and with affordable prices.
-                </p>
+                <h1 class="mb-5 display-2"><strong>Get 30% OFF on your selected style!</strong></h1>
+                <h4 >
+                    Celebrate this holiday with up to 30% off on popular brands during our end of year sale!
+                </h4>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/img/playstation.jpg" class="img-fluid" alt="hero"/>
+                <img src="/img/pexels-godisable-jacob-226636-965324.jpg" class="img-fluid" alt="hero" width="480"/>
             </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-light mt-5">
+    <div class="container py-4">
+        <h2 class="pb-4 text-center">Newest Products</h2>
+
+        <div class="row mb-5 g-3">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="rounded border shadow p-3 text-center h-100">
+                        <img src="/products/@product.ImageFileName" class="img-fluid" alt="..." style="/* height:180px; */ object-fit:contain;"/>
+                        <hr />
+                        <h6 class="py-2">@product.Name</h6>
+                        <p>
+                            Brand: @product.Brand, Category: @product.Category
+                        </p>
+                        <h4 class="mb-3">$@(product.Price)</h4>
+                        <a class="btn btn-light btn-sm mb-2" href="#" role="button">Details</a>
+                        <button type="button" class="btn btn-light btn-sm mb-2">
+                            Add to Cart
+                            @* <img width="20" height="20" src="https://img.icons8.com/material-outlined/24/add-shopping-cart.png" alt="add-shopping-cart" /> *@
+                        </button>
+                    </div>
+                </div>
+            }
         </div>
     </div>
 </div>
