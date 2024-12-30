@@ -19,9 +19,9 @@
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
                     Shoppable
                     <img width="30" height="30" src="https://img.icons8.com/pulsar-color/48/shopping-bag.png" alt="shopping-bag" />
-                    </a>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
@@ -32,27 +32,74 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="Index"><strong>Store</strong></a>
                         </li>
-                      @*  <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy"><strong>Women</strong></a>
+
+                    </ul>
+
+                    @* Check if user is signed in and if user is authenticated after login *@
+                    @using Microsoft.AspNetCore.Identity
+                    @inject SignInManager<ApplicationUser> SignInManager
+                    @inject UserManager<ApplicationUser> UserManager
+
+                    @if (SignInManager.IsSignedIn(User)) 
+                    {
+                        //get user data
+                        var appUser = await UserManager.GetUserAsync(User);
+
+                        if (User.IsInRole("admin")) 
+                        {
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        @* <img width="26" height="26" src="https://img.icons8.com/fluency-systems-filled/50/737373/user-male-circle.png" alt="user-male-circle" /> *@
+                                        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/1A1A1A/user-male-circle.png" alt="user-male-circle" />
+                                        @(appUser!.FirstName + " " + appUser!.LastName + "(Admin)")
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="Products" asp-action="Index">Products</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Profile</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        }
+                        else if (User.IsInRole("client"))
+                        {
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        @* <img width="26" height="26" src="https://img.icons8.com/fluency-systems-filled/50/737373/user-male-circle.png" alt="user-male-circle" /> *@
+                                        <img width="24" height="24" src="https://img.icons8.com/material-sharp/24/1A1A1A/user-male-circle.png" alt="user-male-circle" />
+                                        @(appUser!.FirstName + " " + appUser!.LastName + "(Client)")
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Profile</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        }
+                        else
+                        {
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a>
+                                </li>
+                            </ul>
+                        }
+                    }
+                    
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="btn btn-light btn-sm mx-2" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy"><strong>Shoes</strong></a>
-                        </li *@
-                        
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Admin
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-controller="Products" asp-action="Index">Products</a></li>
-                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Profile</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Logout</a></li>
-                            </ul>
+                            <a class="btn btn-light btn-sm mx-2" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
                         </li>
                     </ul>
+
                 </div>
             </div>
         </nav>

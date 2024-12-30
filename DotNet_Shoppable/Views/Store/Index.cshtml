@@ -19,20 +19,18 @@
     <div class="col-lg-2 col-md-4">
         <select class="form-select" name="category" asp-for="Category" onchange="this.form.submit()">
             <option value="All Categories">All Categories</option>
-            <option value="Computers">Computers</option>
-            <option value="Clothing">Clothing</option>
-            <option value="Gaming Console">Gaming Console</option>
-            <option value="Accessories">Accessories</option>
-            <option value="Electronics">Electronics</option>
-            <option value="Books">Books</option>
-            <option value="Bags">Bags</option>
-            <option value="Movies & TV">Movies & TV</option>
-            <option value="Software">Software</option>
-            <option value="Video Games">Video Games</option>
-            <option value="Digital Music">Digital Music</option>
-            <option value="PC Gaming">PC Gaming</option>
-            <option value="Cameras">Cameras</option>
-            <option value="Cell Phones">Cell Phones</option>
+            <option value="Hoodies & Sweatshirts">Hoodies & Sweatshirts</option>
+            <option value="T-Shirt & Tops">T-Shirt & Tops</option>
+            <option value="Jerseys">Jerseys</option>
+            <option value="Leggings">Leggings</option>
+            <option value="Jackets">Jackets</option>
+            <option value="Tracksuits">Tracksuits</option>
+            <option value="Bags & Backpacks">Bags & Backpacks</option>
+            <option value="Polos">Polos</option>
+            <option value="Shorts">Shorts</option>
+            <option value="Pants">Pants</option>
+            <option value="Skirts & Dresses">Skirts & Dresses</option>
+            <option value="Shoes">Shoes</option>
         </select>
     </div>
     <div class="col-lg-2 col-md-4">
@@ -56,12 +54,12 @@
                 <img src="/products/@product.ImageFileName" class="img-fluid" alt="..." style="/* height:180px; */ object-fit:contain;" />
                 <hr />
                 <h6 class="py-2">@product.Name</h6>
-                <p>
+                <p class="">
                     Brand: @product.Brand, Category: @product.Category
                 </p>
-                <h4 class="mb-3">$@(product.Price)</h4>
-                <a class="btn btn-light btn-sm mb-2" href="#" role="button">Details</a>
-                <button type="button" class="btn btn-light btn-sm mb-2">
+                <h6 class="mb-3">$@(product.Price)</h6>
+                <a class="btn btn-light btn-sm mb-2 mx-2" role="button" asp-controller="Store" asp-action="Details" asp-route-id="@product.Id">Details</a>
+                <button type="button" class="btn btn-light btn-sm mb-2 mx-2">
                     Add to Cart
                     @* <img width="20" height="20" src="https://img.icons8.com/material-outlined/24/add-shopping-cart.png" alt="add-shopping-cart" /> *@
                 </button>

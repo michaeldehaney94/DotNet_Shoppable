@@ -14,6 +14,7 @@ namespace DotNet_Shoppable.Controllers
             this.db = applicationDbContext;
         }
 
+        //List products
         public IActionResult Index(int pageIndex, string? search, string? brand, string? category, string? sort)
         {
             IQueryable<Product> query = db.Products;
@@ -21,7 +22,7 @@ namespace DotNet_Shoppable.Controllers
             // search functionality
             if (search != null && search.Length > 0)
             {
-                query = query.Where(p => p.Name.Contains(search));
+                query = query.Where(p => p.Name.Contains(search) || p.Name.ToLower().Contains(search));
             }
 
             // filter functionality
@@ -51,7 +52,7 @@ namespace DotNet_Shoppable.Controllers
                 query = query.OrderByDescending(p => p.Price);
             }
 
-            //query = query.OrderByDescending(p => p.Id);
+            // query = query.OrderByDescending(p => p.Id);
 
             //pagination functionality
             if (pageIndex < 1)
@@ -81,5 +82,23 @@ namespace DotNet_Shoppable.Controllers
             
             return View(storeSearchModel);
         }
+
+
+
+        //Product details
+        public IActionResult Details(int id)
+        {
+            var product = db.Products.Find(id);
+            if (product == null)
+            {
+                return RedirectToAction("Index", "Store");
+            }
+
+
+
+            return View(product);
+        }
+
+
     }
 }

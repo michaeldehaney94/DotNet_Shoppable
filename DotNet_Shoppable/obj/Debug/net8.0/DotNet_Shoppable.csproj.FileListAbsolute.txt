@@ -173,3 +173,8 @@ C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppabl
 C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\obj\Debug\net8.0\DotNet_Shoppable.pdb
 C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\obj\Debug\net8.0\DotNet_Shoppable.genruntimeconfig.cache
 C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\obj\Debug\net8.0\ref\DotNet_Shoppable.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll

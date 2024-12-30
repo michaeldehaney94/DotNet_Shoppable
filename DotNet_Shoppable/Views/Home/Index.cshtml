@@ -22,7 +22,7 @@
 </div>
 
 
-<div class="bg-light mt-5">
+<div class="bg-light mt-5 mb-5">
     <div class="container py-4">
         <h2 class="pb-4 text-center">Newest Products</h2>
 
@@ -37,9 +37,9 @@
                         <p>
                             Brand: @product.Brand, Category: @product.Category
                         </p>
-                        <h4 class="mb-3">$@(product.Price)</h4>
-                        <a class="btn btn-light btn-sm mb-2" href="#" role="button">Details</a>
-                        <button type="button" class="btn btn-light btn-sm mb-2">
+                        <h6 class="mb-3">$@(product.Price)</h6>
+                        <a class="btn btn-light btn-sm mb-2 mx-2" role="button" asp-controller="Store" asp-action="Details" asp-route-id="@product.Id">Details</a>
+                        <button type="button" class="btn btn-light btn-sm mb-2 mx-2">
                             Add to Cart
                             @* <img width="20" height="20" src="https://img.icons8.com/material-outlined/24/add-shopping-cart.png" alt="add-shopping-cart" /> *@
                         </button>

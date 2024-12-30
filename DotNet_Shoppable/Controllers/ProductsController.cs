@@ -187,7 +187,7 @@ namespace DotNet_Shoppable.Controllers
                 Description = productDto.Description,
                 ImageFileName = newFileName,
                 CreatedAt = DateTime.UtcNow,
-                //CreatedAt = DateTime.Now, // works with sql server timestamp format
+                //CreatedAt = DateTime.Now, // <==== uncomment when working with sqlserver 
             };
 
             db.Products.Add(product);
