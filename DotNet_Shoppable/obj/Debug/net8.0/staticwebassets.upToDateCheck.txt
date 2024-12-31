@@ -46,11 +46,13 @@ wwwroot\bag.png
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\img\hannah-morgan-ycVFts5Ma4s-unsplash.jpg
 wwwroot\img\pexels-godisable-jacob-226636-794064.jpg
 wwwroot\img\pexels-godisable-jacob-226636-949670.jpg
 wwwroot\img\pexels-godisable-jacob-226636-965324.jpg
 wwwroot\img\pexels-idsreza-12513230.jpg
 wwwroot\img\playstation.jpg
+wwwroot\img\premium_photo-1714226832714-60eecbb6b080.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -119,4 +121,6 @@ wwwroot\products\20241228124626294.jpg
 wwwroot\products\20241228124756666.jpg
 wwwroot\products\20241228124907570.jpg
 wwwroot\products\20241228125423187.jpg
+wwwroot\products\20241231142613165.jpg
+wwwroot\products\20241231143024756.png
 wwwroot\shoppable-logo.jpg

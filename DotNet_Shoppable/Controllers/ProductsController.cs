@@ -1,11 +1,13 @@
 ﻿using DotNet_Shoppable.Data;
 using DotNet_Shoppable.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet_Shoppable.Controllers
 {
     // The 'Route' parameter tells the controller that 'ProductsController' actions and views should only be available to the administrator
     //[Route("/Admin/[controller]/[action]")]
+    [Authorize(Roles = "admin")]
     [Route("/Admin/[controller]/{action=Index}/{id?}")] // removes the action method name from URL when navigating
     public class ProductsController : Controller
     {

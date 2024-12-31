@@ -197,6 +197,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\hannah-morgan-ycVFts5Ma4s-unsplash.jpg",
+      "PackagePath": "staticwebassets\\img\\hannah-morgan-ycVFts5Ma4s-unsplash.jpg"
+    },
+    {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-794064.jpg",
       "PackagePath": "staticwebassets\\img\\pexels-godisable-jacob-226636-794064.jpg"
     },
@@ -215,6 +219,10 @@
     {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\playstation.jpg",
       "PackagePath": "staticwebassets\\img\\playstation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\premium_photo-1714226832714-60eecbb6b080.jpg",
+      "PackagePath": "staticwebassets\\img\\premium_photo-1714226832714-60eecbb6b080.jpg"
     },
     {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\js\\site.js",
@@ -487,6 +495,14 @@
     {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228125423187.jpg",
       "PackagePath": "staticwebassets\\products\\20241228125423187.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241231142613165.jpg",
+      "PackagePath": "staticwebassets\\products\\20241231142613165.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241231143024756.png",
+      "PackagePath": "staticwebassets\\products\\20241231143024756.png"
     },
     {
       "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\shoppable-logo.jpg",
