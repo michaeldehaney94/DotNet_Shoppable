@@ -2,6 +2,7 @@ using DotNet_Shoppable.Data;
 using DotNet_Shoppable.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using sib_api_v3_sdk.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +32,10 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
         options.Password.RequireUppercase = false;
         options.Password.RequireLowercase = false;
     })
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders(); //token provider for password reset link sent to email
+
+Configuration.Default.ApiKey.Add("api-key", builder.Configuration["BrevoSettings:ApiKey"]); // Brevo email automation access to API key
 
 var app = builder.Build();
 

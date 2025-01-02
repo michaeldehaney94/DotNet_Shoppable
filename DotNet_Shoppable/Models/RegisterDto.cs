@@ -23,7 +23,7 @@ namespace DotNet_Shoppable.Models
         public string Password { get; set; } = "";
 
         [Required(ErrorMessage = "The Confirm Password field is required")]
-        [Compare("Password", ErrorMessage = "Confirm Password / Password do not match")]
+        [Compare("Password", ErrorMessage = "Confirm Password or Password do not match")]
         public string ConfirmPassword { get; set; } = "";
     }
 }

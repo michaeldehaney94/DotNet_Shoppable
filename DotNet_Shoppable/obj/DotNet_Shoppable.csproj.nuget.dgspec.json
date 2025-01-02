@@ -79,6 +79,10 @@
             "bootstrap": {
               "target": "Package",
               "version": "[5.3.3, )"
+            },
+            "sib_api_v3_sdk": {
+              "target": "Package",
+              "version": "[4.0.2, )"
             }
           },
           "imports": [

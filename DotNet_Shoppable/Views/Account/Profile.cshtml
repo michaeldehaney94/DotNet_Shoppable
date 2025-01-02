@@ -12,9 +12,15 @@
     ViewData["Title"] = appUser?.FirstName + " " + appUser?.LastName;
 }
 
+<div>
+    <a asp-controller="Home" asp-action="Home">
+        <img width="24" height="24" src="https://img.icons8.com/forma-regular/24/1A1A1A/undo.png" alt="undo" title="Go back to Home Page" />
+    </a>
+</div>
+
 <div class="row">
     <div class="col-md-8 mx-auto rounded border shadow p-4">
-        <h2 class="mb-3">@ViewData["Title"]'s Profile</h2>
+        <h2 class="mb-3">Your Profile</h2>
         <hr/>
 
         @if (ViewBag.ErrorMessage != null)
@@ -145,7 +151,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-dark btn-sm" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>

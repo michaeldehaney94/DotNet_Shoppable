@@ -178,3 +178,8 @@ C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppabl
 C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.Core.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.HttpClient.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\JsonSubTypes.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Michael Dehaney\Documents\Dev Projects\DotNet_Shoppable\DotNet_Shoppable\bin\Debug\net8.0\sib_api_v3_sdk.dll
