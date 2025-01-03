@@ -250,7 +250,7 @@ namespace DotNet_Shoppable.Controllers
         }
 
 
-        //Forgot password link
+        //Forgot password
         public IActionResult ForgotPassword()
         {
             if (signInManager.IsSignedIn(User))
@@ -261,7 +261,7 @@ namespace DotNet_Shoppable.Controllers
             return View();
         }
 
-        //Submit password reset link - data model will not be used for action
+        //Send email password reset link - data model will not be used for action
         [HttpPost]
         public async Task<IActionResult> ForgotPassword([Required, EmailAddress] string email)
         {
@@ -307,6 +307,66 @@ namespace DotNet_Shoppable.Controllers
         }
 
 
+        //Password Reset link
+        public IActionResult ResetPassword(string? token)
+        {
+            if (signInManager.IsSignedIn(User))
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (token == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(string? token, PasswordResetDto model)
+        {
+            if (signInManager.IsSignedIn(User))
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (token == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            // find user and user email 
+            var user = await userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = "Token not valid!";
+                return View(model);
+            }
+
+            // reset password
+            var result = await userManager.ResetPasswordAsync(user, token, model.Password);
+
+            if (result.Succeeded) 
+            {
+                ViewBag.SuccessMessage = "Password reset successfully!";
+            }
+            else
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+
+            }
+
+            return View(model);
+        }
 
 
 

@@ -13,7 +13,7 @@ namespace DotNet_Shoppable.Controllers
     {
         private readonly ApplicationDbContext db;
         private readonly IWebHostEnvironment environment; // this will enable you to save an uploaded image in the web app environment or database
-        private readonly int pageSize = 5; //pagination page size
+        private readonly int pageSize = 10; //pagination page size
 
         //retrieve database model context
         public ProductsController(ApplicationDbContext db, IWebHostEnvironment environment) 

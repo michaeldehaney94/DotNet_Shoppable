@@ -1,0 +1,533 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\DotNet_Shoppable.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DotNet_Shoppable.dif9hwb9bt.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\bag.png",
+      "PackagePath": "staticwebassets\\bag.png"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\hannah-morgan-ycVFts5Ma4s-unsplash.jpg",
+      "PackagePath": "staticwebassets\\img\\hannah-morgan-ycVFts5Ma4s-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-794064.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-godisable-jacob-226636-794064.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-949670.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-godisable-jacob-226636-949670.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-965324.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-godisable-jacob-226636-965324.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-idsreza-12513230.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-idsreza-12513230.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\playstation.jpg",
+      "PackagePath": "staticwebassets\\img\\playstation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\premium_photo-1714226832714-60eecbb6b080.jpg",
+      "PackagePath": "staticwebassets\\img\\premium_photo-1714226832714-60eecbb6b080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241224180608874.jpg",
+      "PackagePath": "staticwebassets\\products\\20241224180608874.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228120425545.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228120425545.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228120629198.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228120629198.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228121825265.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228121825265.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228122006409.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228122006409.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228122250863.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228122250863.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228124626294.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228124626294.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228124756666.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228124756666.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228124907570.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228124907570.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241228125423187.jpg",
+      "PackagePath": "staticwebassets\\products\\20241228125423187.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241231142613165.jpg",
+      "PackagePath": "staticwebassets\\products\\20241231142613165.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\products\\20241231143024756.png",
+      "PackagePath": "staticwebassets\\products\\20241231143024756.png"
+    },
+    {
+      "Id": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\shoppable-logo.jpg",
+      "PackagePath": "staticwebassets\\shoppable-logo.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.DotNet_Shoppable.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.DotNet_Shoppable.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.DotNet_Shoppable.props",
+      "PackagePath": "build\\DotNet_Shoppable.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DotNet_Shoppable.props",
+      "PackagePath": "buildMultiTargeting\\DotNet_Shoppable.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.DotNet_Shoppable.props",
+      "PackagePath": "buildTransitive\\DotNet_Shoppable.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

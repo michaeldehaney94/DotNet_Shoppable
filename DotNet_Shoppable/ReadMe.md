@@ -23,7 +23,8 @@ How to Send Automated Email?<br/>
 Go to 'https://www.brevo.com/' and create an account <br/>
 ==== Test Account ===<br/>
 Email: michael.dehaney94@outlook.com <br/>
-Password: *t3ZggS#*5 <br/>
+Password: *t3ZggS#*5 <br/><br/>
+
 On the free tier you can send up to 300 emails per day for $0 /month. <br/>
 After setting up account, go to dashboard 'https://app.brevo.com/'. <br/>
 Go to Transactional > Settings > Configuration > click 'Get your API key' > <br/> 
@@ -31,7 +32,11 @@ click 'Generate a new API key' > then copy & save the key in 'appsettings.json'.
 Go to Brevo documentation to get the C# API config code "https://developers.brevo.com/reference/sendtransacemail". <br/>
 Add 'Configuration.Default.ApiKey.Add("api-key", "YOUR API KEY");' to 'Program.cs' to access api key in appsettings <br/>
 Create a new class in 'Data' Folder to configure the Email Automation service <br/>
-
-What is Shoppable?<br/>
-Shoppable is a ecommerce .NET web application built to sell good and services for clients and sellers, who wish to start their online business or grow their existing business to reach a wider target market. 
+You can view Brevo statistics and logs of automated email attempts sent, delivered or failed from 'https://app-smtp.brevo.com/statistics' dashboard.<br/>
 <br/>
+
+
+What is Shoppable? <br/>
+Shoppable is a ecommerce .NET web application built to sell good and services for clients and sellers, <br/>
+who wish to start their online business or grow their existing business to reach a wider target market. 
+
