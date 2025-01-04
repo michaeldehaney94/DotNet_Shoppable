@@ -11,8 +11,8 @@
     <div class="col-md-8">
         <h3 class="mb-3">@Model.Name</h3>
         <h5 class="mb-3">$@(Model.Price)</h5>
-        <button type="button" class="btn btn-light btn-sm">
-            Add to Cart
+        <button type="button" class="btn btn-warning" onclick="addToCart(this, @Model.Id)">
+            Add to Cart      
         </button>
 
         <hr />

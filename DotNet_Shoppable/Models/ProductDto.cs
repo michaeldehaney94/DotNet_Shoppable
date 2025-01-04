@@ -22,9 +22,9 @@ namespace DotNet_Shoppable.Models
 
         public IFormFile? ImageFile { get; set; }
 
-        public DateTimeOffset CreatedAt { get; set; }
+        public DateTimeOffset CreatedAt { get; set; } // comment out when using sqlserver
 
-        //public DateTime CreatedAt { get; set; }
+        //public DateTime CreatedAt { get; set; } // <==== uncomment when using sql server
 
     }
 }

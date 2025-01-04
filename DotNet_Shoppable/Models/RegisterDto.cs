@@ -27,3 +27,5 @@ namespace DotNet_Shoppable.Models
         public string ConfirmPassword { get; set; } = "";
     }
 }
+
+// model used for registering user

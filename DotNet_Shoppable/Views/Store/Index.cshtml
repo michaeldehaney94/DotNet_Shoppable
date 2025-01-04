@@ -60,7 +60,7 @@
                 </p>
                 <h6 class="mb-3">$@(product.Price)</h6>
                 <a class="btn btn-light btn-sm mb-2 mx-2" role="button" asp-controller="Store" asp-action="Details" asp-route-id="@product.Id">Details</a>
-                <button type="button" class="btn btn-light btn-sm mb-2 mx-2">
+                <button type="button" class="btn btn-light btn-sm mb-2 mx-2" onclick="addToCart(this, @product.Id)">
                     Add to Cart
                     @* <img width="20" height="20" src="https://img.icons8.com/material-outlined/24/add-shopping-cart.png" alt="add-shopping-cart" /> *@
                 </button>

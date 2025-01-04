@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nLGT1SnsvrQTuAcCBGL3zOgiNlVmKGPSldL52Lw/w3g=",
+  "Hash": "GDoUuh4uf3nw6bMtsJy+Oj2So+CusXGKjEPueQuRV7A=",
   "Source": "DotNet_Shoppable",
   "BasePath": "_content/DotNet_Shoppable",
   "Mode": "Default",
@@ -997,8 +997,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3nq3hdjd7i",
-      "Integrity": "nx5HS0nnJVgQuVwp2NHAtftVrkQW8kmIR8qbze0qoUE=",
+      "Fingerprint": "5wlkkydgcc",
+      "Integrity": "KygTWLbbR0GFrVo8xlJ3dtcOPnrLQyq/8l5XCh6chQc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bag.png"
@@ -2707,7 +2707,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "bag.3nq3hdjd7i.png",
+      "Route": "bag.5wlkkydgcc.png",
       "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\bag.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2717,7 +2717,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1340"
+          "Value": "2058"
         },
         {
           "Name": "Content-Type",
@@ -2725,11 +2725,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nx5HS0nnJVgQuVwp2NHAtftVrkQW8kmIR8qbze0qoUE=\""
+          "Value": "\"KygTWLbbR0GFrVo8xlJ3dtcOPnrLQyq/8l5XCh6chQc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 20:29:05 GMT"
+          "Value": "Sat, 04 Jan 2025 17:54:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2739,7 +2739,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3nq3hdjd7i"
+          "Value": "5wlkkydgcc"
         },
         {
           "Name": "label",
@@ -2747,7 +2747,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nx5HS0nnJVgQuVwp2NHAtftVrkQW8kmIR8qbze0qoUE="
+          "Value": "sha256-KygTWLbbR0GFrVo8xlJ3dtcOPnrLQyq/8l5XCh6chQc="
         }
       ]
     },
@@ -2762,7 +2762,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1340"
+          "Value": "2058"
         },
         {
           "Name": "Content-Type",
@@ -2770,11 +2770,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nx5HS0nnJVgQuVwp2NHAtftVrkQW8kmIR8qbze0qoUE=\""
+          "Value": "\"KygTWLbbR0GFrVo8xlJ3dtcOPnrLQyq/8l5XCh6chQc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 20:29:05 GMT"
+          "Value": "Sat, 04 Jan 2025 17:54:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2784,7 +2784,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nx5HS0nnJVgQuVwp2NHAtftVrkQW8kmIR8qbze0qoUE="
+          "Value": "sha256-KygTWLbbR0GFrVo8xlJ3dtcOPnrLQyq/8l5XCh6chQc="
         }
       ]
     },

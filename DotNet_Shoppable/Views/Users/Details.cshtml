@@ -86,6 +86,8 @@
             <div class="col-sm-4">Created At</div>
             <div class="col-sm-8">@Model.CreatedAt</div>
         </div>
+        <hr />
+
 
         <div class="mt-4">
             <a class="btn btn-light btn-sm" asp-controller="Users" asp-action="Index">
@@ -93,7 +95,7 @@
                 Back
             </a>
 
-            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">
+            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal">
                 Delete
             </button>
         </div>
@@ -142,12 +144,16 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+
+
                 <p>@("Are you sure you wan to delete " + @Model.FirstName + " " + @Model.LastName + "'s user account?")</p>
+
+
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger btn-sm" role="button" asp-controller="Users" asp-action="DeleteAccount" asp-route-id="@Model.Id">
+                <a class="btn btn-danger btn-sm" role="button" asp-controller="Users" asp-action="DeleteAccount" asp-route-id="@Model.Id">
                     Delete
-                </button>
+                </a>
                 <button type="button" class="btn btn-warning btn-sm" data-bs-dismiss="modal">Close</button>
             </div>
         </div>

@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3nq3hdjd7i</Fingerprint>
-      <Integrity>nx5HS0nnJVgQuVwp2NHAtftVrkQW8kmIR8qbze0qoUE=</Integrity>
+      <Fingerprint>5wlkkydgcc</Fingerprint>
+      <Integrity>KygTWLbbR0GFrVo8xlJ3dtcOPnrLQyq/8l5XCh6chQc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bag.png'))</OriginalItemSpec>
