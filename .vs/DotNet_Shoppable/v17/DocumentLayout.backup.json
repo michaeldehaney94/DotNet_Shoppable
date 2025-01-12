@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\",
+  "WorkspaceRootPath": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\Github clones\\DotNet_Shoppable\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|c:\\users\\michael dehaney\\documents\\dev projects\\dotnet_shoppable\\dotnet_shoppable\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|c:\\users\\michael dehaney\\documents\\dev projects\\github clones\\dotnet_shoppable\\dotnet_shoppable\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|solutionrelative:dotnet_shoppable\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|c:\\users\\michael dehaney\\documents\\dev projects\\dotnet_shoppable\\dotnet_shoppable\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|c:\\users\\michael dehaney\\documents\\dev projects\\github clones\\dotnet_shoppable\\dotnet_shoppable\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|solutionrelative:dotnet_shoppable\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|c:\\users\\michael dehaney\\documents\\dev projects\\dotnet_shoppable\\dotnet_shoppable\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|c:\\users\\michael dehaney\\documents\\dev projects\\github clones\\dotnet_shoppable\\dotnet_shoppable\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{E6CCF328-3475-482C-BF9D-C5F5E246703C}|DotNet_Shoppable\\DotNet_Shoppable.csproj|solutionrelative:dotnet_shoppable\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\Github clones\\DotNet_Shoppable\\DotNet_Shoppable\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DotNet_Shoppable\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\Github clones\\DotNet_Shoppable\\DotNet_Shoppable\\Models\\Product.cs",
               "RelativeToolTip": "DotNet_Shoppable\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,27 +41,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ReadMe.md",
-              "DocumentMoniker": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\ReadMe.md",
+              "DocumentMoniker": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\Github clones\\DotNet_Shoppable\\DotNet_Shoppable\\ReadMe.md",
               "RelativeDocumentMoniker": "DotNet_Shoppable\\ReadMe.md",
-              "ToolTip": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\ReadMe.md",
+              "ToolTip": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\Github clones\\DotNet_Shoppable\\DotNet_Shoppable\\ReadMe.md",
               "RelativeToolTip": "DotNet_Shoppable\\ReadMe.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-14T20:05:12.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T20:05:12.782Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\Github clones\\DotNet_Shoppable\\DotNet_Shoppable\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DotNet_Shoppable\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\Github clones\\DotNet_Shoppable\\DotNet_Shoppable\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "DotNet_Shoppable\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T19:54:00.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T19:54:00.786Z"
             }
           ]
         }

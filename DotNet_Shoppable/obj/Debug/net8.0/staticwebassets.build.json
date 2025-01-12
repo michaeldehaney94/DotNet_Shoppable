@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GDoUuh4uf3nw6bMtsJy+Oj2So+CusXGKjEPueQuRV7A=",
+  "Hash": "Jx/PCcCYv5OYBiyRwvzo4qUGEvhhxEpwqg3Hl7dT0uI=",
   "Source": "DotNet_Shoppable",
   "BasePath": "_content/DotNet_Shoppable",
   "Mode": "Default",
@@ -1170,27 +1170,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\pexels-idsreza-12513230.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\playstation.jpg",
-      "SourceId": "DotNet_Shoppable",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
-      "BasePath": "_content/DotNet_Shoppable",
-      "RelativePath": "img/playstation#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "lweqiv7j15",
-      "Integrity": "C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\playstation.jpg"
     },
     {
       "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\premium_photo-1714226832714-60eecbb6b080.jpg",
@@ -6229,88 +6208,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-cGvhZy0DmRX+Dq57k90bWRcz0MiKBMQ9OIUeGhtHjUI="
-        }
-      ]
-    },
-    {
-      "Route": "img/playstation.jpg",
-      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\playstation.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42392"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 20:55:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs="
-        }
-      ]
-    },
-    {
-      "Route": "img/playstation.lweqiv7j15.jpg",
-      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\playstation.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42392"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 20:55:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lweqiv7j15"
-        },
-        {
-          "Name": "label",
-          "Value": "img/playstation.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs="
         }
       ]
     },

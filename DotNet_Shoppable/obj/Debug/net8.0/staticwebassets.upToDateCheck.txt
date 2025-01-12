@@ -51,7 +51,6 @@ wwwroot\img\pexels-godisable-jacob-226636-794064.jpg
 wwwroot\img\pexels-godisable-jacob-226636-949670.jpg
 wwwroot\img\pexels-godisable-jacob-226636-965324.jpg
 wwwroot\img\pexels-idsreza-12513230.jpg
-wwwroot\img\playstation.jpg
 wwwroot\img\premium_photo-1714226832714-60eecbb6b080.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

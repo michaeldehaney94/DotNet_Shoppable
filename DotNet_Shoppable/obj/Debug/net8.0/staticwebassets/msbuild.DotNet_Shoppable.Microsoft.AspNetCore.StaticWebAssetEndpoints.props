@@ -504,18 +504,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cGvhZy0DmRX\u002BDq57k90bWRcz0MiKBMQ9OIUeGhtHjUI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1215234"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022cGvhZy0DmRX\u002BDq57k90bWRcz0MiKBMQ9OIUeGhtHjUI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 21:15:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DotNet_Shoppable/img/playstation.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\playstation.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42392"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 20:55:38 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DotNet_Shoppable/img/playstation.lweqiv7j15.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\playstation.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lweqiv7j15"},{"Name":"integrity","Value":"sha256-C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs="},{"Name":"label","Value":"_content/DotNet_Shoppable/img/playstation.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42392"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022C9TIHwLMOqb1UCnxHXcNDVoj2UOs4VCsrMDcUbfbAQs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 20:55:38 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DotNet_Shoppable/img/premium_photo-1714226832714-60eecbb6b080.3zhbbma78h.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\premium_photo-1714226832714-60eecbb6b080.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
