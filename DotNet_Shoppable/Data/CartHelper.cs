@@ -22,7 +22,7 @@ namespace DotNet_Shoppable.Data
             catch (Exception)
             {
 
-                throw;
+               // do not add a 'throw;' method to try-catch block else you will get a JSONException Error
             }
 
             if (cookieValue.Length > 0)
