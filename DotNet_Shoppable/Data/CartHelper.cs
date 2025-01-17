@@ -22,7 +22,7 @@ namespace DotNet_Shoppable.Data
             catch (Exception)
             {
 
-                throw;
+                // do not add a "throw;" 
             }
 
             if (cookieValue.Length > 0)
