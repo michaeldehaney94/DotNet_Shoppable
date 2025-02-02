@@ -75,6 +75,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" asp-controller="Products" asp-action="Index">Products</a></li>
+                                        <li><a class="dropdown-item" asp-controller="AdminOrders" asp-action="Index">Orders</a></li>
                                         <li><a class="dropdown-item" asp-controller="Users" asp-action="Index">Users</a></li>
                                         <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Profile</a></li>
                                         <li><hr class="dropdown-divider"></li>
@@ -166,7 +167,7 @@
     @await RenderSectionAsync("Scripts", required: false)
 
 
-    @* script used to add products to cart *@
+    @*================= javascript used to add products to cart ==============================================*@
     <script>
         function getShoppingCart() {
             // document.cookie contains all the cookies of our website with the following format
@@ -232,6 +233,51 @@
             document.getElementById("CartSize").innerHTML = cartSize;
         }
 
+        // javascript function used to increase and decrease quantity of order item
+        function increase(id) {
+            let cart = getShoppingCart();
+
+            let quantity = cart[id]
+            if (isNaN(quantity)) {
+                // quantity is Not a Number => set it to 1
+                cart[id] = 1
+            }
+            else {
+                cart[id] = Number(quantity) + 1;
+            }
+
+            saveCart(cart);
+            location.reload()
+        }
+
+        function decrease(id) {
+            let cart = getShoppingCart();
+
+            let quantity = cart[id]
+            if (isNaN(quantity)) {
+                // quantity is Not a Number => exit
+                return
+            }
+
+            quantity = Number(quantity)
+
+            if (quantity > 1) {
+                cart[id] = quantity - 1
+                saveCart(cart)
+                location.reload()
+            }
+        }
+
+        function remove(id) {
+            let cart = getShoppingCart();
+
+            if (cart[id]) {
+                delete cart[id]
+                saveCart(cart)
+                location.reload()
+            }
+        }
+       
 
  
     </script>

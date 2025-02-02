@@ -70,7 +70,7 @@ namespace DotNet_Shoppable.Controllers
             return RedirectToAction("Confirm");
         }
 
-        //oConfirmed orders
+        //Confirmed orders
         public IActionResult Confirm()
         {
 
@@ -101,6 +101,7 @@ namespace DotNet_Shoppable.Controllers
 
             return View();
         }
+
 
         //Confirm orders
         [Authorize]

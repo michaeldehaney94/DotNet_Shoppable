@@ -41,13 +41,13 @@
                             </p>
                         </td>
                         <td style="white-space:nowrap;">
-                            <button type="button" class="btn btn-dark btn-sm"> - </button>
+                            <button type="button" class="btn btn-dark btn-sm" onclick="decrease(@item.Product.Id)"> - </button> @* decrease quantity *@
                             <span class="border rounded-3 p-2 m-1">@item.Quantity</span>
-                            <button type="button" class="btn btn-dark btn-sm"> + </button>
+                            <button type="button" class="btn btn-dark btn-sm" onclick="increase(@item.Product.Id)"> + </button> @* increase quantity *@
                         </td>
                         <td>$@(item.UnitPrice * item.Quantity)</td>
                         <td>
-                            <img width="25" height="25" src="https://img.icons8.com/ios/50/FA5252/delete-trash.png" alt="delete-trash" style="cursor:pointer;" title="Remove Item"/>
+                            <img width="25" height="25" src="https://img.icons8.com/ios/50/FA5252/delete-trash.png" alt="delete-trash" style="cursor:pointer;" onclick="remove(@item.Product.Id)" title="Remove Item" />
                         </td>
                     </tr>
                     
