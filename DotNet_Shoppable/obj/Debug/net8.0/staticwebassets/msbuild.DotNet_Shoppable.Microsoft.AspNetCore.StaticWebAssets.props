@@ -624,8 +624,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t4sldcz4mp</Fingerprint>
-      <Integrity>U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0=</Integrity>
+      <Fingerprint>ksbw8935mg</Fingerprint>
+      <Integrity>tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -683,24 +683,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\hannah-morgan-ycVFts5Ma4s-unsplash.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pexels-godisable-jacob-226636-794064.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>DotNet_Shoppable</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DotNet_Shoppable</BasePath>
-      <RelativePath>img/pexels-godisable-jacob-226636-794064.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zgj9ajq55f</Fingerprint>
-      <Integrity>Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pexels-godisable-jacob-226636-794064.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\pexels-godisable-jacob-226636-949670.jpg'))">
       <SourceType>Package</SourceType>

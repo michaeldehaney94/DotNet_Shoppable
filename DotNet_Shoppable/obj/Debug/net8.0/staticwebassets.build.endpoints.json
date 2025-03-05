@@ -2887,7 +2887,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "225"
+          "Value": "221"
         },
         {
           "Name": "Content-Type",
@@ -2895,22 +2895,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0=\""
+          "Value": "\"tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 17:05:45 GMT"
+          "Value": "Wed, 05 Mar 2025 19:34:48 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0="
+          "Value": "sha256-tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA="
         }
       ]
     },
     {
-      "Route": "css/style.t4sldcz4mp.css",
+      "Route": "css/style.ksbw8935mg.css",
       "AssetFile": "css/style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2924,7 +2924,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "225"
+          "Value": "221"
         },
         {
           "Name": "Content-Type",
@@ -2932,21 +2932,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0=\""
+          "Value": "\"tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 17:05:45 GMT"
+          "Value": "Wed, 05 Mar 2025 19:34:48 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t4sldcz4mp"
+          "Value": "ksbw8935mg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0="
+          "Value": "sha256-tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA="
         },
         {
           "Name": "label",
@@ -3115,88 +3115,6 @@
         {
           "Name": "label",
           "Value": "img/hannah-morgan-ycVFts5Ma4s-unsplash.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/pexels-godisable-jacob-226636-794064.jpg",
-      "AssetFile": "img/pexels-godisable-jacob-226636-794064.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "133058"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 19:47:14 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U="
-        }
-      ]
-    },
-    {
-      "Route": "img/pexels-godisable-jacob-226636-794064.zgj9ajq55f.jpg",
-      "AssetFile": "img/pexels-godisable-jacob-226636-794064.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "133058"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 19:47:14 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zgj9ajq55f"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U="
-        },
-        {
-          "Name": "label",
-          "Value": "img/pexels-godisable-jacob-226636-794064.jpg"
         }
       ]
     },

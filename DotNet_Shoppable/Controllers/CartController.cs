@@ -52,8 +52,8 @@ namespace DotNet_Shoppable.Controllers
             ViewBag.Subtotal = subtotal;
             ViewBag.Total = subtotal + shippingFee;
 
-            if (ModelState.IsValid) 
-            { 
+            if (!ModelState.IsValid)
+            {
                 return View(model);
             }
 
@@ -70,64 +70,64 @@ namespace DotNet_Shoppable.Controllers
             return RedirectToAction("Confirm");
         }
 
-        //Confirmed orders
+
+        //cart orders
         public IActionResult Confirm()
         {
-
             List<OrderItem> cartItems = CartHelper.GetCartItems(Request, Response, db);
             decimal total = CartHelper.GetSubTotal(cartItems) + shippingFee;
-
-            //calculate cart size
+            // get cart size
             int cartSize = 0;
             foreach (var item in cartItems)
             {
                 cartSize += item.Quantity;
             }
 
-            //read the delivery address and payment method
-            string deliveryAddress = TempData["DeliveryAddress"] as string ?? "";
+            string deliveryAddress =  TempData["DeliveryAddress"] as string ?? "";
             string paymentMethod = TempData["PaymentMethod"] as string ?? "";
-            TempData.Keep(); // store the temp data of the payment info and delivery address for later use
+            TempData.Keep(); // stores the delivery address and payment method as cache for confirming order
 
+            // if cart size, delivery address or payment method is invalid or null
             if (cartSize == 0 || deliveryAddress.Length == 0 || paymentMethod.Length == 0)
             {
                 return RedirectToAction("Index", "Home");
             }
 
-            ViewBag.DeliveryAddress = deliveryAddress;
+            ViewBag.DeliveryAddress = deliveryAddress; 
             ViewBag.PaymentMethod = paymentMethod;
             ViewBag.Total = total;
             ViewBag.CartSize = cartSize;
+
 
             return View();
         }
 
 
-        //Confirm orders
+        // confirm cart order
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> Confirm(int any) // parameter will not be used
+        public async Task<IActionResult> Confirm(int any) // parameter not needed
         {
-            var cartItems = CartHelper.GetCartItems(Request, Response, db);
+            var cartItems = CartHelper.GetCartItems(Request, Response, db); // count items added to cart by JavaScript function
 
-            // read the data saved cache data from delivery address and payment entered
             string deliveryAddress = TempData["DeliveryAddress"] as string ?? "";
-            string paymentMethod = TempData["PaymentMehtod"] as string ?? "";
-            TempData.Keep();
+            string paymentMethod = TempData["PaymentMethod"] as string ?? "";
+            TempData.Keep(); // stores the delivery address and payment method as cache for confirming order
 
-            if (cartItems.Count == 0 || deliveryAddress.Length == 0 || paymentMethod.Length == 0 )
+            // if cart size, delivery address or payment method is invalid or null
+            if (cartItems.Count == 0 || deliveryAddress.Length == 0 || paymentMethod.Length == 0)
             {
                 return RedirectToAction("Index", "Home");
             }
 
-            // check if user is authenticated
+            // check if use has been authenticated
             var appUser = await userManager.GetUserAsync(User);
             if (appUser == null)
             {
                 return RedirectToAction("Index", "Home");
             }
 
-            //save order
+            // save order
             var order = new Order
             {
                 ClientId = appUser.Id,
@@ -138,25 +138,23 @@ namespace DotNet_Shoppable.Controllers
                 PaymentStatus = "pending",
                 PaymentDetails = "",
                 OrderStatus = "pending",
-                //CreatedAt = DateTime.Now, // <=== uncomment when using sqlserver
-                CreatedAt = DateTime.UtcNow, // <=== comment out when using sqlserver
+                CreatedAt = DateTime.UtcNow,
+                //CreatedAt = DateTime.Now, // <==== uncomment when working with sqlserver 
             };
 
             db.Orders.Add(order);
             db.SaveChanges();
 
-            // delete the shopping cart cookie afterwards
+            // delete the shopping cart cookie
             Response.Cookies.Delete("shopping_cart");
-
             ViewBag.SuccessMessage = "Order created successfully";
 
             return View();
-
         }
-
-       
-        
-
-
     }
+      
+       
+
+
+    
 }

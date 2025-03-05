@@ -47,7 +47,6 @@ wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\img\hannah-morgan-ycVFts5Ma4s-unsplash.jpg
-wwwroot\img\pexels-godisable-jacob-226636-794064.jpg
 wwwroot\img\pexels-godisable-jacob-226636-949670.jpg
 wwwroot\img\pexels-godisable-jacob-226636-965324.jpg
 wwwroot\img\pexels-idsreza-12513230.jpg

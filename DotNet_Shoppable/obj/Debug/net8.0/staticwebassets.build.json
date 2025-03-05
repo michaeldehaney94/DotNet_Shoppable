@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jx/PCcCYv5OYBiyRwvzo4qUGEvhhxEpwqg3Hl7dT0uI=",
+  "Hash": "0DQtj9IZx8Ul/zXIhbaFXsAP6SlXYI/LFCADUjfEq1U=",
   "Source": "DotNet_Shoppable",
   "BasePath": "_content/DotNet_Shoppable",
   "Mode": "Default",
@@ -1039,8 +1039,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t4sldcz4mp",
-      "Integrity": "U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0=",
+      "Fingerprint": "ksbw8935mg",
+      "Integrity": "tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -1086,27 +1086,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\hannah-morgan-ycVFts5Ma4s-unsplash.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-794064.jpg",
-      "SourceId": "DotNet_Shoppable",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\",
-      "BasePath": "_content/DotNet_Shoppable",
-      "RelativePath": "img/pexels-godisable-jacob-226636-794064#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zgj9ajq55f",
-      "Integrity": "Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pexels-godisable-jacob-226636-794064.jpg"
     },
     {
       "Identity": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-949670.jpg",
@@ -5484,7 +5463,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "225"
+          "Value": "221"
         },
         {
           "Name": "Content-Type",
@@ -5492,11 +5471,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0=\""
+          "Value": "\"tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 17:05:45 GMT"
+          "Value": "Wed, 05 Mar 2025 19:34:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5506,12 +5485,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0="
+          "Value": "sha256-tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA="
         }
       ]
     },
     {
-      "Route": "css/style.t4sldcz4mp.css",
+      "Route": "css/style.ksbw8935mg.css",
       "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5521,7 +5500,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "225"
+          "Value": "221"
         },
         {
           "Name": "Content-Type",
@@ -5529,11 +5508,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0=\""
+          "Value": "\"tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 17:05:45 GMT"
+          "Value": "Wed, 05 Mar 2025 19:34:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5543,7 +5522,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t4sldcz4mp"
+          "Value": "ksbw8935mg"
         },
         {
           "Name": "label",
@@ -5551,7 +5530,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U3Ghw9rBVqe+kuHyEtLgAXegemHIwEsI/d4fKiA4zh0="
+          "Value": "sha256-tD/O4dAOOJoklQA3yV7mm6h3mwIgr5K+lTTrNQjFToA="
         }
       ]
     },
@@ -5880,88 +5859,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Nc3KPwiUq51OX382RCVtTtWp+qIxr4KNvAYvrkQdJi0="
-        }
-      ]
-    },
-    {
-      "Route": "img/pexels-godisable-jacob-226636-794064.jpg",
-      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-794064.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "133058"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 19:47:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U="
-        }
-      ]
-    },
-    {
-      "Route": "img/pexels-godisable-jacob-226636-794064.zgj9ajq55f.jpg",
-      "AssetFile": "C:\\Users\\Michael Dehaney\\Documents\\Dev Projects\\DotNet_Shoppable\\DotNet_Shoppable\\wwwroot\\img\\pexels-godisable-jacob-226636-794064.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "133058"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 19:47:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zgj9ajq55f"
-        },
-        {
-          "Name": "label",
-          "Value": "img/pexels-godisable-jacob-226636-794064.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ld/Ovnvyzzi9H7gQ9whu+CSprzOzUAsU1QHHxVJZV1U="
         }
       ]
     },

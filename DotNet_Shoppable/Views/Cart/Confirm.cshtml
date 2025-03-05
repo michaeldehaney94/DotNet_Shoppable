@@ -1,38 +1,33 @@
 ﻿
 
 @{
-    ViewData["Title"] = "Confirm Order";
+    ViewData["Title"] = "Confirm Orders";
 }
 
-<div class="mx-auto rounded border p-4" style="width: 420px;">
+<div class="mx-auto rounded border p-4 shadow" style="width: 420px">
     <h2 class="text-center mb-3">Order Details</h2>
     <hr />
 
     @if (ViewBag.SuccessMessage != null)
     {
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>@ViewBag.SuccessMessage</strong>
-        @* <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> *@
-        <a class="btn btn-outline-primary" asp-controller="ClientOrders" asp-action="Index">Back</a>
-    </div>
+        <div class="alert alert-success" role="alert">@ViewBag.SuccessMessage</div>
+        <a class="btn btn-outline-success" asp-controller="ClientOrders" asp-action="Index">Back</a>
     }
     else 
     {
+
         <div class="row mb-3">
             <div class="col-5">Delivery Address</div>
             <div class="col-7">@ViewBag.DeliveryAddress</div>
         </div>
-
         <div class="row mb-3">
-            <div class="col-5">Payment Method</div>
-            <div class="col-7">@ViewBag.PaymentMethod</div>
+            <div class="col-5">Payment Mehtod</div>
+            <div class="col-7">@ViewBag.PaymentMehtod</div>
         </div>
-
         <div class="row mb-3">
             <div class="col-5">Total Amount</div>
             <div class="col-7">$@(ViewBag.Total)</div>
         </div>
-
         <div class="row mb-3">
             <div class="col-5">Quantity</div>
             <div class="col-7">@(ViewBag.CartSize)</div>
@@ -45,13 +40,18 @@
                     <button type="submit" class="btn btn-primary">Confirm</button>
                 </div>
                 <div class="col-sm-6 d-grid">
-                    <a class="btn btn-outline-primary" asp-controller="Cart" asp-action="Index">Back</a>
+                    <a class="btn btn-outline-primary">
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/undo.png" alt="undo" />
+                        Back
+                    </a>
                 </div>
             </div>
         </form>
 
     }
 
-   
+
+
 
 </div>
+
