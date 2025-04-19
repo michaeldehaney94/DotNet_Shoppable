@@ -39,4 +39,39 @@ You can view Brevo statistics and logs of automated email attempts sent, deliver
 What is Shoppable? <br/>
 Shoppable is a ecommerce .NET web application built to sell good and services for clients and sellers, <br/>
 who wish to start their online business or grow their existing business to reach a wider target market. 
+<br><br>
+
+Adding Payment Gateway <br>
+-----------------------<br>
+====Paypal Account======<br>
+Go to Paypal to create an account or login: https://www.paypal.com/webapps/mpp/account-selection?intent=developer&country.x=US&locale.x=en_US.<br>
+Username: michael.dehaney94@outlook.com <br>
+Password: *t3ZggS#*5 <br><br>
+
+Paypal SANDBOX 'https://developer.paypal.com/dashboard/?product_flow=account-selection'.<br>
+
+Create two accounts, one will make the payments and the other will receive the payments(repeat the process below twice).<br>
+
+=====Business Account=====<br>
+Create a business account to receive payment, go to Testing Tools > Sandbox Accounts > click 'Create Account' button.<br>
+Create Sandbox Account: select 'Business' > select Country > click 'Create Account'. <br>
+
+=====Personal Account======<br>
+Create a business account to receive payment, go to Testing Tools > Sandbox Accounts > click 'Create Account' button.<br>
+Create Sandbox Account: select 'Personal' > select Country > click 'Create Account'. <br><br>
+
+======Create an Application for the Business Account=======<br>
+click 'App & Credentials' > Create App > enter app name > select Sandbox Account > click Create App<br>
+Copy and Save the Client ID and the Secret key in your 'appsettings.json'.<br>
+To get the URL, go to APIs & SDKs > REST APIs > API requests > then copy the Sandbox url and paste it in appsettings.<br><br>
+
+To send payment request to Paypal, you will need a Web Token.<br>
+Go to APIs & SDKs > REST APIs > Authentication, copy the cURL code and modify it to send a auth token.<br>
+To add Paypal buttons, Go to API & SDK > JavaScript SDK > Complete Reference > find 'createOrder' section. <br>
+https://developer.paypal.com/sdk/js/reference/ <br><br>
+
+To create order request, go to https://developer.paypal.com/docs/api/orders/v2/ and use the POST method 'Create order'.<br>
+
+
+
 

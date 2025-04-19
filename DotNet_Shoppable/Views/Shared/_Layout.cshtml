@@ -35,7 +35,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="Index">Store</a>
                         </li>
-
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Checkout" asp-action="Index">Checkout</a>
+                        </li>
+ *@
                     </ul>
 
                     @* Shopping Cart *@
@@ -74,10 +77,31 @@
                                         @(appUser!.FirstName + " " + appUser!.LastName + "(Admin)")
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" asp-controller="Products" asp-action="Index">Products</a></li>
-                                        <li><a class="dropdown-item" asp-controller="AdminOrders" asp-action="Index">Orders</a></li>
-                                        <li><a class="dropdown-item" asp-controller="Users" asp-action="Index">Users</a></li>
-                                        <li><a class="dropdown-item" asp-controller="Home" asp-action="Index">Profile</a></li>
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="Products" asp-action="Index">
+                                                <img width="20" height="20" src="https://img.icons8.com/color/48/products-pile.png" alt="products-pile" />
+                                                Products
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="Home" asp-action="Index">
+                                                <img width="20" height="20" src="https://img.icons8.com/color/48/test-account.png" alt="test-account" />
+                                                Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="Users" asp-action="Index">
+                                                <img width="20" height="20" src="https://img.icons8.com/color/48/user-group-woman-woman.png" alt="user-group-woman-woman" />
+                                                Users
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="AdminOrders" asp-action="Index">
+                                                <img width="20" height="20" src="https://img.icons8.com/external-kmg-design-outline-color-kmg-design/32/external-logistics-shipping-delivery-kmg-design-outline-color-kmg-design-2.png" alt="external-logistics-shipping-delivery-kmg-design-outline-color-kmg-design-2" />
+                                                Orders
+                                            </a>
+                                        </li>
+                                        
                                         <li><hr class="dropdown-divider"></li>
                                         <li>
                                             <a class="dropdown-item" asp-controller="Account" asp-action="Logout" onclick="return confirm('@(appUser!.FirstName), are you sure you want to logout?')">
@@ -99,7 +123,18 @@
                                         @(appUser!.FirstName + " " + appUser!.LastName + "(Client)")
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="Account" asp-action="Profile">
+                                                <img width="20" height="20" src="https://img.icons8.com/color/48/test-account.png" alt="test-account" />
+                                                Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-controller="ClientOrders" asp-action="Index">
+                                                <img width="20" height="20" src="https://img.icons8.com/external-kmg-design-outline-color-kmg-design/32/external-logistics-shipping-delivery-kmg-design-outline-color-kmg-design-2.png" alt="external-logistics-shipping-delivery-kmg-design-outline-color-kmg-design-2" />
+                                                Orders
+                                            </a>
+                                        </li>
                                         <li><hr class="dropdown-divider"></li>
                                         <li>
                                             <a class="dropdown-item" asp-controller="Account" asp-action="Logout" onclick="return confirm('@(appUser!.FirstName), are you sure you want to logout?')">

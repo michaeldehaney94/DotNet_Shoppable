@@ -63,7 +63,7 @@ namespace DotNet_Shoppable.Controllers
         }
 
 
-        // edit order statuses
+        // edit order status
         public IActionResult Edit(int id, string? payment_status, string? order_status)
         {
             var order = db.Orders.Find(id); // if id for order statuses

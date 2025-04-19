@@ -67,6 +67,11 @@ namespace DotNet_Shoppable.Controllers
             TempData["DeliveryAddress"] = model.DeliveryAddress;
             TempData["PaymentMethod"] = model.PaymentMethod;
 
+            if (model.PaymentMethod == "paypal" || model.PaymentMethod == "credit_card")
+            {
+                return RedirectToAction("Index", "Checkout");
+            }
+
             return RedirectToAction("Confirm");
         }
 
